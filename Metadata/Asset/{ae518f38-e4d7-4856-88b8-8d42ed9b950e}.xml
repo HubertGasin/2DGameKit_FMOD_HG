@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{ae518f38-e4d7-4856-88b8-8d42ed9b950e}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="assetPath">
+			<value>MUSIC/MainMenu-Zone01/Loops/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

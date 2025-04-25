@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{fbffdea5-f73a-4136-aa5c-854abecdb42b}">
+		<property name="name">
+			<value>Activated Doors</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5646da22-fcb1-4284-b22b-959f9249377a}</destination>
+		</relationship>
+	</object>
+</objects>

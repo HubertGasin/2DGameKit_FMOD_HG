@@ -20,6 +20,7 @@
 	<object class="MixerBusEffectChain" id="{9525ec07-2c5a-4c25-96cd-dd2f8f4b9c09}">
 		<relationship name="effects">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
+			<destination>{68c06a62-0263-4dd0-b54f-5faf8a14c5d1}</destination>
 			<destination>{e8ecd9e5-ecdd-45e2-a349-170773cc7d72}</destination>
 		</relationship>
 	</object>
@@ -50,5 +51,6 @@
 			<value>-80</value>
 		</property>
 	</object>
+	<object class="ConvolutionReverbEffect" id="{68c06a62-0263-4dd0-b54f-5faf8a14c5d1}" />
 	<object class="MixerBusFader" id="{e8ecd9e5-ecdd-45e2-a349-170773cc7d72}" />
 </objects>

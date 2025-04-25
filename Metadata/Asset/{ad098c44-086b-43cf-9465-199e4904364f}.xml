@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{ad098c44-086b-43cf-9465-199e4904364f}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Enemies/Gunner/</value>
 		</property>

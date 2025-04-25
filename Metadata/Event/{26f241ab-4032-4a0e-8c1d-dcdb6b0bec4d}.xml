@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{26f241ab-4032-4a0e-8c1d-dcdb6b0bec4d}">
 		<property name="name">
-			<value>vox_plr_tutorial01</value>
+			<value>vox_plr_zone01_infoPost1</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

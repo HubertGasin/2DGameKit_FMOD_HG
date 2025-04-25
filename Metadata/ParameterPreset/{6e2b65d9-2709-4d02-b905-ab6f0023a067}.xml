@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6e2b65d9-2709-4d02-b905-ab6f0023a067}">
+		<property name="name">
+			<value>ThreatState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e2f9e08-5adb-4027-8d65-833b2eb7ea8a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{53729c6d-9f31-404e-97ac-b45b3ff7133a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{53729c6d-9f31-404e-97ac-b45b3ff7133a}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{433bb745-82b6-43a0-8492-7934dca6b1ab}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{433bb745-82b6-43a0-8492-7934dca6b1ab}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.68999999761581421</value>
+		</property>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bcfab89b-08ba-4caf-9093-bbd18462c19e}">
 		<property name="name">
-			<value>mus_Zone03_cave</value>
+			<value>mus_Zone03</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

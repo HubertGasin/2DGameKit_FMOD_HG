@@ -5,7 +5,7 @@
 			<value>Yellow</value>
 		</property>
 		<property name="name">
-			<value>MainMenu-Zone01</value>
+			<value>MainMenu</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8f39fb89-58bf-443c-a834-70001abb6d7d}</destination>

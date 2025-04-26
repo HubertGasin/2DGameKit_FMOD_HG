@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cb7c4a7e-c649-405a-bba2-05ec1db95ac1}">
 		<property name="name">
-			<value>mus_MainMenu-Zone01</value>
+			<value>mus_MainMenu-Zone01-DEPRECATED</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

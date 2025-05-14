@@ -5,7 +5,7 @@
 			<value>sfx_env_enm_spitter_splash</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b4a6b139-77b9-455d-a783-945fb35faed9}</destination>

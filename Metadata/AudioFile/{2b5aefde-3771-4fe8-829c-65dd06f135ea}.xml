@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2b5aefde-3771-4fe8-829c-65dd06f135ea}">
+		<property name="assetPath">
+			<value>SFX/Environment/Interactables/Cutscene 02 Block Drop/sfx_cutscene02_var2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.1844166666666673</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

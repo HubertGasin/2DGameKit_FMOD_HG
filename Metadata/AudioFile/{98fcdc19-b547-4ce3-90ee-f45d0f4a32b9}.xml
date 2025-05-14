@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{98fcdc19-b547-4ce3-90ee-f45d0f4a32b9}">
+		<property name="assetPath">
+			<value>SFX/Environment/Interactables/Activation Crystal/sfx_env_ActivationCrystal_activeIdle_lp.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>33.527250000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

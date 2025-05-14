@@ -5,7 +5,7 @@
 			<value>sfx_env_enm_spitter_projectile_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7861fccf-9ef3-4afc-a54e-8efc2a83a07b}</destination>

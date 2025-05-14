@@ -5,7 +5,7 @@
 			<value>sfx_env_plr_pistol_projectile</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{977d0c49-ec1b-42ba-ad48-d8549a308720}</destination>

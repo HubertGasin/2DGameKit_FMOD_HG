@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bd79663a-3150-49b9-a86b-56853a248e43}">
+		<property name="assetPath">
+			<value>SFX/Environment/Interactables/InfoPost/info post activate.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0000208333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>
+		</relationship>
+	</object>
+</objects>

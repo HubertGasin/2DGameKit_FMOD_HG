@@ -403,7 +403,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8bda7a79-052a-4ff1-98a2-eb73819ba167}">
 		<property name="color">
-			<value>Green Light 1</value>
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Synth1</value>
@@ -446,7 +446,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7b5967fb-47cf-4d5b-9e94-10411cf51591}">
 		<property name="color">
-			<value>Cyan</value>
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Synth2</value>
@@ -489,7 +489,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{bbae17ed-2cfd-4b6a-9941-40e0f5b55c97}">
 		<property name="color">
-			<value>Red Light 1</value>
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Strings</value>
@@ -532,7 +532,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9934aedf-2d34-4a78-a2a8-9ec6e6f17550}">
 		<property name="color">
-			<value>Magenta Light 2</value>
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Arp</value>
@@ -590,7 +590,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{089cbe3c-2814-4be1-af24-d19fac083906}">
 		<property name="color">
-			<value>Magenta Light 1</value>
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Arp2</value>
@@ -633,7 +633,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fe7d3924-3762-4ed9-8e33-269896dd6637}">
 		<property name="color">
-			<value>Yellow Light 2</value>
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>Shaker</value>
@@ -676,7 +676,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c5a761c6-d2fc-4a6b-81b5-3b233cd3e966}">
 		<property name="color">
-			<value>Yellow Light 1</value>
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>Stickdrum</value>

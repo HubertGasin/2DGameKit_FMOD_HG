@@ -5,7 +5,7 @@
 			<value>sfx_plr_attack_staff_swing</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{65d55bc6-8b82-465d-9ee3-82f17fc9c9aa}</destination>
@@ -98,7 +98,6 @@
 	<object class="MixerBusPanner" id="{54f0faac-5ec2-4504-b418-7339857ea12a}" />
 	<object class="MixerBusEffectChain" id="{ed25dd07-3062-4a37-bab5-1818a65cc172}">
 		<relationship name="effects">
-			<destination>{2cabe86b-141c-4aae-8311-689036cfe98b}</destination>
 			<destination>{657cad1a-8318-4bde-89d6-0611aaeae39c}</destination>
 			<destination>{0e67ed8e-8015-4233-ba46-3f0906a2dc32}</destination>
 		</relationship>
@@ -114,14 +113,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c52657d4-d085-4653-94e7-63460d246b03}" />
-	<object class="LimiterEffect" id="{2cabe86b-141c-4aae-8311-689036cfe98b}">
-		<property name="boost">
-			<value>11.1999998</value>
-		</property>
-		<property name="ceiling">
-			<value>-2.9000001</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{657cad1a-8318-4bde-89d6-0611aaeae39c}" />
 	<object class="ProxyEffect" id="{0e67ed8e-8015-4233-ba46-3f0906a2dc32}">
 		<property name="inputFormat">

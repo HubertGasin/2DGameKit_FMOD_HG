@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{f52e53fe-5470-4be5-a7ac-939e00318ed2}">
+	<object class="ParameterPreset" id="{54a10f8b-eef7-4d26-990e-299fa7b2d75d}">
 		<property name="name">
-			<value>Keys_Collected</value>
+			<value>StaffCollected</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1e2f9e08-5adb-4027-8d65-833b2eb7ea8a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{a3f7b1bc-622d-4087-8237-91f0bb145826}</destination>
+			<destination>{47b6469b-d6a4-471a-b04e-260472f5ee02}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{a3f7b1bc-622d-4087-8237-91f0bb145826}">
-		<property name="maximum">
-			<value>4</value>
-		</property>
+	<object class="GameParameter" id="{47b6469b-d6a4-471a-b04e-260472f5ee02}">
 		<property name="isGlobal">
 			<value>true</value>
 		</property>
@@ -25,15 +22,15 @@
 			<value>false</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{3a8ee5ae-0cf9-472f-9585-9667f759aafc}</destination>
+			<destination>{71561061-aaab-4582-a1a3-603fdd9a6a76}</destination>
 		</relationship>
 	</object>
-	<object class="SeekModulator" id="{3a8ee5ae-0cf9-472f-9585-9667f759aafc}">
+	<object class="SeekModulator" id="{71561061-aaab-4582-a1a3-603fdd9a6a76}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>cursorPosition</value>
 		</property>
 		<property name="speedAscending">
-			<value>0.12999999523162842</value>
+			<value>0.96999996900558472</value>
 		</property>
 	</object>
 </objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f7b290de-09de-4464-8afd-58639ec091e1}">
+		<property name="name">
+			<value>Zone03Stage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e2f9e08-5adb-4027-8d65-833b2eb7ea8a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8ca8c7f5-33a8-4268-a8b6-7f9a668b6958}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8ca8c7f5-33a8-4268-a8b6-7f9a668b6958}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

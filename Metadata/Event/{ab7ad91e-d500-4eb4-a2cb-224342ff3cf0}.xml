@@ -5,7 +5,7 @@
 			<value>sfx_env_zone01_shipSteam</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54bd4515-96ce-40b1-a961-754c4a2ba27a}</destination>

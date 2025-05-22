@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_fs</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f3d8e8a0-1bde-433d-8de8-3158e2360bb9}</destination>

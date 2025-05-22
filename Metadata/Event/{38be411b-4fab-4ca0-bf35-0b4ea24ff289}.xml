@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_attack_electric</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{807de108-eb18-4fc7-96b6-cb94d008fd9f}</destination>
@@ -80,9 +80,18 @@
 	<object class="MixerBusEffectChain" id="{7c3a6610-2ee8-494c-a66c-6a387c49eac5}">
 		<relationship name="effects">
 			<destination>{c60ff059-31c0-4439-abed-45974aeb0abc}</destination>
+			<destination>{7ff7f9a1-dd75-4144-9ea1-e55a8bf38c83}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ec113460-495e-4ac3-9283-8f54a58d68a7}" />
 	<object class="MixerBusFader" id="{3953f805-94af-4976-b41d-a5e3954b0f85}" />
 	<object class="MixerBusFader" id="{c60ff059-31c0-4439-abed-45974aeb0abc}" />
+	<object class="ProxyEffect" id="{7ff7f9a1-dd75-4144-9ea1-e55a8bf38c83}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{8dbdcf96-b983-4b4a-8b59-a128ffd07c5e}</destination>
+		</relationship>
+	</object>
 </objects>

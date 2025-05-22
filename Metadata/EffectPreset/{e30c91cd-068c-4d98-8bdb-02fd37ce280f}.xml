@@ -11,5 +11,20 @@
 			<destination>{b024366f-eb07-4d40-b7db-7e55e558b4fd}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}" />
+	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}">
+		<relationship name="effects">
+			<destination>{b998a467-397c-49bb-bf1a-70daccc48cfe}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{b998a467-397c-49bb-bf1a-70daccc48cfe}">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="soundSize">
+			<value>2</value>
+		</property>
+		<property name="minimumExtent">
+			<value>8</value>
+		</property>
+	</object>
 </objects>

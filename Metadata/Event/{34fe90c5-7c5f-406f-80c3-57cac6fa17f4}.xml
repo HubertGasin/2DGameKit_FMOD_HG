@@ -109,6 +109,9 @@
 		<property name="color">
 			<value>Green Light 1</value>
 		</property>
+		<property name="volume">
+			<value>-14</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{2b12e7b3-9f09-4623-b364-ad27159086ba}</destination>
 		</relationship>
@@ -130,6 +133,9 @@
 		</property>
 		<property name="start">
 			<value>1</value>
+		</property>
+		<property name="volume">
+			<value>-14</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{f7d9830e-795b-4f4a-afa2-75746da834b1}</destination>

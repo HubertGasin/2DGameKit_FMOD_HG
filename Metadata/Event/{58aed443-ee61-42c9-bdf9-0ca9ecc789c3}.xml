@@ -151,7 +151,10 @@
 	</object>
 	<object class="SnapshotModule" id="{d88bd879-dfa0-4289-b8da-0ca1a7bf9f9f}">
 		<property name="start">
-			<value>1</value>
+			<value>0.5</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
 		</property>
 		<relationship name="event">
 			<destination>{81a0752d-b670-4843-b741-3862135374de}</destination>

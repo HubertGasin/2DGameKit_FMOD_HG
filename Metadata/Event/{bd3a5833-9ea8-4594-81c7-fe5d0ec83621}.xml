@@ -5,7 +5,7 @@
 			<value>sfx_enm_chomper_attack</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f7f735c0-2ef7-4f88-96b4-a08072dedfa6}</destination>

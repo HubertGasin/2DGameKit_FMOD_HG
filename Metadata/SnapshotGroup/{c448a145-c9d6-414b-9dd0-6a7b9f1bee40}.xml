@@ -7,5 +7,20 @@
 		<property name="name">
 			<value>Reverbs</value>
 		</property>
+		<relationship name="items">
+			<destination>{020aa493-eb48-47fa-a04d-755b19ab8b12}</destination>
+			<destination>{cdac101c-5f51-464f-b7fd-4dfbf257414b}</destination>
+			<destination>{1a09d5d5-2e7d-4313-ae8b-37aba84da90a}</destination>
+			<destination>{d847d325-b59e-4158-80d9-51f6247a126a}</destination>
+			<destination>{8c61c116-98b3-4679-b83c-4554effbe021}</destination>
+			<destination>{a3d6abf1-8ead-45e5-952b-697c4cfdcd4a}</destination>
+			<destination>{2abedcd9-e3ff-4417-811b-f1ad189eae1c}</destination>
+			<destination>{3e930de0-230f-4935-99f5-ac6412eae57a}</destination>
+			<destination>{9a8b383c-eb5d-45bd-b039-06a51212b994}</destination>
+			<destination>{aebe7fb9-ebd4-456f-8d98-4e685e217db8}</destination>
+			<destination>{d85fef75-0dd7-4af9-a7d9-1e51ca0571f4}</destination>
+			<destination>{f4aae108-8610-40b1-9b39-7087566de36f}</destination>
+			<destination>{3e9f78e4-7c6a-475c-b48e-2d2aa07ae46b}</destination>
+		</relationship>
 	</object>
 </objects>

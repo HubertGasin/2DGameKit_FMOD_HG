@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{a3d6abf1-8ead-45e5-952b-697c4cfdcd4a}">
+		<property name="name">
+			<value>REV_Zone03_Cave</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{5ed81514-aada-471d-ab88-a99da70f08f4}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{a762c8ff-f457-45a9-a54e-52dd5e2a7a1b}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{37f9774d-2168-40d9-a6df-1c0fe7effa21}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{621e0ffe-bae7-4da0-9656-5fbf98adbebd}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{13e9809d-4b08-42d8-b4c6-47c1c010cf29}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{a762c8ff-f457-45a9-a54e-52dd5e2a7a1b}" />
+	<object class="MarkerTrack" id="{37f9774d-2168-40d9-a6df-1c0fe7effa21}" />
+	<object class="Timeline" id="{621e0ffe-bae7-4da0-9656-5fbf98adbebd}" />
+	<object class="SnapshotMasterTrack" id="{13e9809d-4b08-42d8-b4c6-47c1c010cf29}" />
+</objects>

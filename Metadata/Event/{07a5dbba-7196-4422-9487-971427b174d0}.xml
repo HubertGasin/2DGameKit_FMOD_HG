@@ -5,7 +5,7 @@
 			<value>sfx_env_platform_moving_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ab64fd5-509b-41e1-9c6f-bf1669e554da}</destination>
@@ -63,7 +63,11 @@
 			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{103388fb-2883-472b-a49f-44df2f651165}" />
+	<object class="EventAutomatableProperties" id="{103388fb-2883-472b-a49f-44df2f651165}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e82925b7-4bac-41f4-8f4f-c767d238e15e}" />
 	<object class="GroupTrack" id="{df2dfff9-70a3-4f8e-802e-21f35b880ae0}">
 		<relationship name="modules">
@@ -174,6 +178,7 @@
 	<object class="MixerBusEffectChain" id="{2052e084-8d19-4e9f-8632-cb20e5d45f4e}">
 		<relationship name="effects">
 			<destination>{1b110089-b02a-4b2e-9e11-cdded2c4410b}</destination>
+			<destination>{483cc767-6d9b-40f3-8cd9-b90fe564df7e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fdb228bf-a9c0-4e0e-97b4-c9b757814ca2}" />
@@ -231,6 +236,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1b110089-b02a-4b2e-9e11-cdded2c4410b}" />
+	<object class="ProxyEffect" id="{483cc767-6d9b-40f3-8cd9-b90fe564df7e}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{cdcbe4d0-b4f8-49f9-b226-d92103788e7e}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{20228411-107e-4670-b19a-36aa444be5e5}">
 		<property name="position">
 			<value>0</value>

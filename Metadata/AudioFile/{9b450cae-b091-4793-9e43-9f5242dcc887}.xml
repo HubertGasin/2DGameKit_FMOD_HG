@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{72db9766-a8bb-4d7f-ac19-0e32efc71e9f}">
+	<object class="AudioFile" id="{9b450cae-b091-4793-9e43-9f5242dcc887}">
 		<property name="assetPath">
-			<value>SFX/Enemies/Chomper/Attack/Weapons, Sword, Swing Fast, Whoosh, Metal SND34535 2.wav</value>
+			<value>SFX/Enemies/Chomper/Footsteps/walk/sfx_enm_chomper_fs_walk_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.19026041666666665</value>
+			<value>0.40729166666666666</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{b16508f5-40a4-4ecc-9a7d-843f135e876d}</destination>

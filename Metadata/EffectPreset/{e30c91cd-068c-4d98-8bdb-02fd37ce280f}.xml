@@ -14,9 +14,13 @@
 	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}">
 		<relationship name="effects">
 			<destination>{b998a467-397c-49bb-bf1a-70daccc48cfe}</destination>
+			<destination>{b924d946-c1bc-4b61-9ecf-ba837758be98}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{b998a467-397c-49bb-bf1a-70daccc48cfe}">
+		<property name="maximumDistance">
+			<value>90</value>
+		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
@@ -25,6 +29,53 @@
 		</property>
 		<property name="minimumExtent">
 			<value>8</value>
+		</property>
+	</object>
+	<object class="MixerSend" id="{b924d946-c1bc-4b61-9ecf-ba837758be98}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="automators">
+			<destination>{0d3ed672-460e-406d-8cbc-c44fb5d7b6be}</destination>
+		</relationship>
+		<relationship name="mixerReturn">
+			<destination>{e73c50fa-23be-499b-ad0b-6a1ecec5b218}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{0d3ed672-460e-406d-8cbc-c44fb5d7b6be}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>level</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{e8342959-bea5-45a0-ab5f-18ffd8c9d8a4}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{e8342959-bea5-45a0-ab5f-18ffd8c9d8a4}">
+		<relationship name="parameter">
+			<destination>{868a0d3f-0eaf-40b0-838c-ba6e98bcbc8f}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{29c7898b-8847-4893-884c-b358fd966db1}</destination>
+			<destination>{02c711a9-ff27-4347-9469-28b21b506b33}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{29c7898b-8847-4893-884c-b358fd966db1}">
+		<property name="position">
+			<value>80.861581920903959</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{02c711a9-ff27-4347-9469-28b21b506b33}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-44</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.630520761</value>
 		</property>
 	</object>
 </objects>

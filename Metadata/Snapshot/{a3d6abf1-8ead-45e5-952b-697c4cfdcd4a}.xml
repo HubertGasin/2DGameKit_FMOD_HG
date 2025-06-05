@@ -20,7 +20,14 @@
 			<destination>{13e9809d-4b08-42d8-b4c6-47c1c010cf29}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{a762c8ff-f457-45a9-a54e-52dd5e2a7a1b}" />
+	<object class="EventAutomatableProperties" id="{a762c8ff-f457-45a9-a54e-52dd5e2a7a1b}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{37f9774d-2168-40d9-a6df-1c0fe7effa21}" />
 	<object class="Timeline" id="{621e0ffe-bae7-4da0-9656-5fbf98adbebd}" />
 	<object class="SnapshotMasterTrack" id="{13e9809d-4b08-42d8-b4c6-47c1c010cf29}" />

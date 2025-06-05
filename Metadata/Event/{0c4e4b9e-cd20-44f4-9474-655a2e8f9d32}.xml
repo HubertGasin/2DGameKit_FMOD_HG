@@ -5,7 +5,7 @@
 			<value>sfx_env_healthBox_idle_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8d16ce51-1a77-4547-a2c3-50cca258db1f}</destination>
@@ -174,6 +174,7 @@
 	<object class="MixerBusEffectChain" id="{d42f2e47-3163-4a1d-815a-23d67f5926c4}">
 		<relationship name="effects">
 			<destination>{919a019d-a7f6-4981-a124-2ff44852cc48}</destination>
+			<destination>{7443dd68-4c5c-4b23-942f-8292643eeedb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d11bbb1f-a3b5-4ade-950a-2c387330c9d7}" />
@@ -234,6 +235,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{919a019d-a7f6-4981-a124-2ff44852cc48}" />
+	<object class="ProxyEffect" id="{7443dd68-4c5c-4b23-942f-8292643eeedb}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{7395724f-b2eb-4bf4-a520-f234aec97802}">
 		<property name="position">
 			<value>0</value>

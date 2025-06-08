@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c66ff2f7-ffec-4807-a943-790759926c55}">
+		<property name="name">
+			<value>Monster Detect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1e2f9e08-5adb-4027-8d65-833b2eb7ea8a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5b9ee650-a842-4b68-b9f6-ca6f0de83398}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5b9ee650-a842-4b68-b9f6-ca6f0de83398}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

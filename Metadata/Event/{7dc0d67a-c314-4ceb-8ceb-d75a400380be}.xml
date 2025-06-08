@@ -5,7 +5,7 @@
 			<value>sfx_env_pdiam_idle_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f62330f3-a4ca-466a-a5b0-f9960b815691}</destination>
@@ -179,6 +179,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e94f5587-8106-4e7c-8197-14ab9db3ce2a}">
 		<relationship name="effects">
+			<destination>{1145518a-754f-46fc-bcea-49991714403e}</destination>
 			<destination>{bcd73ab3-cac0-44cc-9a87-069d6b5a6411}</destination>
 			<destination>{42e2352b-4683-4097-97e4-1281b16aa9c4}</destination>
 			<destination>{a252ae37-b410-49b2-9392-0da042a722a6}</destination>
@@ -239,6 +240,14 @@
 			<destination>{dd55b15b-3394-4648-9ac1-532fe4df1f88}</destination>
 			<destination>{1b5e8f17-3eab-408d-a48d-0c5a152c6bb8}</destination>
 			<destination>{ddc4ea07-8238-4e7e-b90d-dafd31d50eee}</destination>
+		</relationship>
+	</object>
+	<object class="ProxyEffect" id="{1145518a-754f-46fc-bcea-49991714403e}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
 		</relationship>
 	</object>
 	<object class="MultibandEqEffect" id="{bcd73ab3-cac0-44cc-9a87-069d6b5a6411}">

@@ -67,6 +67,9 @@
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{e82925b7-4bac-41f4-8f4f-c767d238e15e}" />
 	<object class="GroupTrack" id="{df2dfff9-70a3-4f8e-802e-21f35b880ae0}">

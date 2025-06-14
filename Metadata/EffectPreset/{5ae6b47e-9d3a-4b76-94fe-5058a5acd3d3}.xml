@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EffectPreset" id="{fd72ae2f-8290-4686-907f-374f39d8aaf0}">
+	<object class="EffectPreset" id="{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}">
 		<property name="name">
-			<value>PlayerSpatializer</value>
+			<value>EnvironmentSpatializer</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
 		</relationship>
 		<relationship name="effect">
-			<destination>{ba468b36-5aa4-47c8-b3ca-fd6dbc7e8277}</destination>
+			<destination>{dc731339-a111-408a-b26e-c0dd1ae7b05f}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{ba468b36-5aa4-47c8-b3ca-fd6dbc7e8277}">
+	<object class="EffectChain" id="{dc731339-a111-408a-b26e-c0dd1ae7b05f}">
 		<relationship name="effects">
-			<destination>{a8e8fe97-76c5-408c-92a2-fedadd46f794}</destination>
-			<destination>{22adfac7-9d84-40da-bcd1-f2308537066f}</destination>
+			<destination>{70d86222-1a25-4c14-991f-0532bb6c1815}</destination>
+			<destination>{4a2c7d51-8ce6-49d2-a959-1b604bc27fa4}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{a8e8fe97-76c5-408c-92a2-fedadd46f794}">
-		<property name="distanceRolloffType">
-			<value>4</value>
-		</property>
+	<object class="SpatialiserEffect" id="{70d86222-1a25-4c14-991f-0532bb6c1815}">
 		<property name="maximumDistance">
 			<value>25</value>
 		</property>
@@ -31,15 +28,15 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>3.20000005</value>
+			<value>3.4000001</value>
 		</property>
 		<property name="minimumExtent">
-			<value>182</value>
+			<value>180</value>
 		</property>
 	</object>
-	<object class="MixerSend" id="{22adfac7-9d84-40da-bcd1-f2308537066f}">
+	<object class="MixerSend" id="{4a2c7d51-8ce6-49d2-a959-1b604bc27fa4}">
 		<property name="level">
-			<value>-10</value>
+			<value>0</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>

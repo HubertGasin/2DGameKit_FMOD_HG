@@ -16,5 +16,12 @@
 			<destination>{43748fd0-e2fb-46ce-b57e-21e16fcdcd47}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{43748fd0-e2fb-46ce-b57e-21e16fcdcd47}" />
+	<object class="SpatialiserEffect" id="{43748fd0-e2fb-46ce-b57e-21e16fcdcd47}">
+		<property name="maximumDistance">
+			<value>7.5999999</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 </objects>

@@ -144,6 +144,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{14c8b4a4-69bc-44f3-923a-a3077be12b75}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -177,7 +180,7 @@
 	<object class="MixerBusEffectChain" id="{6c8ef696-7261-433d-9e5a-6c9b3106cb34}">
 		<relationship name="effects">
 			<destination>{6fb60afb-bd0a-4e6f-8831-37ca168df317}</destination>
-			<destination>{302d19fe-a060-4663-8e20-4be497ed1cae}</destination>
+			<destination>{192c8131-d07b-4391-bd59-7b1a288e59f0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ba69b3cc-035b-4888-aa20-76559748509e}" />
@@ -239,7 +242,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6fb60afb-bd0a-4e6f-8831-37ca168df317}" />
-	<object class="ProxyEffect" id="{302d19fe-a060-4663-8e20-4be497ed1cae}">
+	<object class="ProxyEffect" id="{192c8131-d07b-4391-bd59-7b1a288e59f0}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
@@ -337,16 +340,19 @@
 			<value>4193.3999</value>
 		</property>
 		<property name="frequencyD">
-			<value>109.366081</value>
+			<value>585.783386</value>
 		</property>
 		<property name="qualityA">
 			<value>0.634002149</value>
 		</property>
+		<property name="qualityD">
+			<value>0.379999995</value>
+		</property>
 		<property name="gainC">
-			<value>3.99783254</value>
+			<value>20.1191788</value>
 		</property>
 		<property name="gainD">
-			<value>20.6392193</value>
+			<value>12.8385687</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3b47575f-d82c-449b-a94f-2dfe565035d3}" />

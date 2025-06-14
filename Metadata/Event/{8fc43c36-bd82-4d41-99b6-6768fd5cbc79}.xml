@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5a606156-6dfb-4e60-be87-f279ae6e7fe7}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{4ef0d8d1-cc26-443a-b957-e5915f584446}</destination>
 		</relationship>
@@ -119,7 +122,7 @@
 	<object class="MixerBusEffectChain" id="{4ef0d8d1-cc26-443a-b957-e5915f584446}">
 		<relationship name="effects">
 			<destination>{0c8148df-251a-4eeb-9fb1-131e9057f3f1}</destination>
-			<destination>{e2a33312-9495-4fa3-aafc-781317811573}</destination>
+			<destination>{db7a660e-bb47-4184-975e-3e7fbea6b9db}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d9713589-9edb-472b-a636-d6288e5bd63d}" />
@@ -147,12 +150,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{941aa49d-19e7-48d0-9559-c8b6c0a7591b}" />
 	<object class="MixerBusFader" id="{0c8148df-251a-4eeb-9fb1-131e9057f3f1}" />
-	<object class="ProxyEffect" id="{e2a33312-9495-4fa3-aafc-781317811573}">
+	<object class="ProxyEffect" id="{db7a660e-bb47-4184-975e-3e7fbea6b9db}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{8e905692-0daf-40ce-aeb9-707ae5d0c6a9}">
@@ -163,12 +166,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.2547189</value>
+			<value>0.0822291747</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b2dd196f-7320-4aa7-a381-d2cb9ff0be00}">
 		<property name="position">
-			<value>0.0625</value>
+			<value>0.1640625</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -176,7 +179,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a467df63-96e5-4dde-8306-51e0af04e6fd}">
 		<property name="position">
-			<value>0.15625</value>
+			<value>0.1328125</value>
 		</property>
 		<property name="value">
 			<value>1</value>

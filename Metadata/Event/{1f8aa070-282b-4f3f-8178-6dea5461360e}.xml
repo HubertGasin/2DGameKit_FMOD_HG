@@ -1738,7 +1738,7 @@
 			<value>30</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{ba539aa1-f9c6-4c29-b838-5ae5c0fb94eb}</destination>

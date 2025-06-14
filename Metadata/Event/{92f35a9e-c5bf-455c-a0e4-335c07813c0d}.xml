@@ -61,7 +61,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{5343c01a-13b0-437f-bd3a-cbbc279a235b}">
 		<property name="maximumDistance">
-			<value>10</value>
+			<value>15</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{43b9f16b-49f4-45b3-bbed-abe0075c49c2}" />
@@ -145,7 +145,7 @@
 	<object class="MixerBusEffectChain" id="{a1a70418-da5b-45d8-b937-144f013c6943}">
 		<relationship name="effects">
 			<destination>{cc2be18c-d0f6-4273-9f0e-0495374af88e}</destination>
-			<destination>{c204c1eb-a714-4887-95b5-cb7b92d8c2b3}</destination>
+			<destination>{116e9f8a-75fd-4fbb-93d4-ef24151bf92c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9753174e-3fa5-4fe4-b57b-6d881b8ccec5}" />
@@ -218,12 +218,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{32568439-3214-41ec-91ef-e8d7336090b3}" />
 	<object class="MixerBusFader" id="{cc2be18c-d0f6-4273-9f0e-0495374af88e}" />
-	<object class="ProxyEffect" id="{c204c1eb-a714-4887-95b5-cb7b92d8c2b3}">
+	<object class="ProxyEffect" id="{116e9f8a-75fd-4fbb-93d4-ef24151bf92c}">
 		<property name="inputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+			<destination>{8dbdcf96-b983-4b4a-8b59-a128ffd07c5e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f84afffb-045e-4f5a-b5fd-89a7c4ec1d26}" />

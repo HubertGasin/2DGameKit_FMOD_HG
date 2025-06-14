@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EffectPreset" id="{8dbdcf96-b983-4b4a-8b59-a128ffd07c5e}">
+	<object class="EffectPreset" id="{92296cbb-a8f2-4d00-a119-f0104ce117bf}">
 		<property name="name">
-			<value>Monster Spatializer</value>
+			<value>Gunner Spatializer</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
 		</relationship>
 		<relationship name="effect">
-			<destination>{2ecd43f5-8cb8-4095-813a-86d1d4d514a6}</destination>
+			<destination>{01def2a9-face-49e7-835c-0298221b08b0}</destination>
 		</relationship>
 	</object>
-	<object class="EffectChain" id="{2ecd43f5-8cb8-4095-813a-86d1d4d514a6}">
+	<object class="EffectChain" id="{01def2a9-face-49e7-835c-0298221b08b0}">
 		<relationship name="effects">
-			<destination>{80a14deb-49a9-431c-ad22-71d0d4d92e2c}</destination>
+			<destination>{eef5c7db-5a89-40e5-b41f-d8e4c31bf7d3}</destination>
 		</relationship>
 	</object>
-	<object class="SpatialiserEffect" id="{80a14deb-49a9-431c-ad22-71d0d4d92e2c}">
+	<object class="SpatialiserEffect" id="{eef5c7db-5a89-40e5-b41f-d8e4c31bf7d3}">
 		<property name="maximumDistance">
-			<value>15</value>
+			<value>25</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

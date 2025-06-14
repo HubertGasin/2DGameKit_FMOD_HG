@@ -5,7 +5,7 @@
 			<value>sfx_env_stblk_friction_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{506264b4-94e4-4c13-9ae1-c120c97e02c7}</destination>
@@ -81,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7dbd8c98-d5d7-4d3a-86bf-7efb7005e3ef}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{24737661-0f63-41b3-8409-dc3d916d64bd}</destination>
 		</relationship>
@@ -144,9 +147,15 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4c0cee6f-86c9-46ce-9976-b3d2308e46fd}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{058fb1dc-39db-46df-915b-935fd3c5ddd9}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{f04a2a70-3050-42d5-bc7f-76ada73f5b7c}</destination>
 		</relationship>
@@ -177,6 +186,7 @@
 	<object class="MixerBusEffectChain" id="{24737661-0f63-41b3-8409-dc3d916d64bd}">
 		<relationship name="effects">
 			<destination>{f1761ac9-c2b4-485b-ac04-b922f06eab34}</destination>
+			<destination>{4f33225f-4897-4ead-af57-06f2b7239718}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5cb92e8e-1216-4cfa-88b0-5b39e89a8161}" />
@@ -227,6 +237,23 @@
 			<destination>{f029381e-485a-4f6a-8bfe-34bc4fb3c1d9}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{058fb1dc-39db-46df-915b-935fd3c5ddd9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>140</value>
+		</property>
+		<property name="releaseTime">
+			<value>580</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{f04a2a70-3050-42d5-bc7f-76ada73f5b7c}">
 		<relationship name="effects">
 			<destination>{c8923eb7-a6a3-480b-9f0e-f0cd31685d8d}</destination>
@@ -245,6 +272,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f1761ac9-c2b4-485b-ac04-b922f06eab34}" />
+	<object class="ProxyEffect" id="{4f33225f-4897-4ead-af57-06f2b7239718}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{91ca39e2-f866-407a-be58-5387c1cd93f9}">
 		<property name="position">
 			<value>0</value>
@@ -258,7 +293,7 @@
 	</object>
 	<object class="AutomationPoint" id="{d9476efc-3c9a-4f21-bb5d-90c11beb76a5}">
 		<property name="position">
-			<value>0.21190732758620687</value>
+			<value>0.0625</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -266,13 +301,13 @@
 	</object>
 	<object class="AutomationPoint" id="{b1a1adc5-c035-4716-b3ad-0b840b498a95}">
 		<property name="position">
-			<value>1.9358836206896552</value>
+			<value>1.875</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>0.0497517101</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{725ad765-c00e-430b-90c2-8a6619d05e28}">

@@ -5,7 +5,7 @@
 			<value>sfx_env_toxicWater_touch</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{22831d3c-930d-47eb-a3dd-4cbbe13918e8}</destination>
@@ -116,6 +116,7 @@
 	<object class="MixerBusEffectChain" id="{ec38d726-5267-431e-b379-fe5a7dd93746}">
 		<relationship name="effects">
 			<destination>{5396b3f4-670a-4958-8cc1-14fb91489434}</destination>
+			<destination>{f8035c4e-f53f-45b8-bde8-93fdef64f6dc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d42ab898-a0c4-4166-b64d-db859b9c62d0}" />
@@ -150,5 +151,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{b9e7faa0-e3d4-4f35-868f-f48552a73b83}" />
 	<object class="MixerBusFader" id="{5396b3f4-670a-4958-8cc1-14fb91489434}" />
+	<object class="ProxyEffect" id="{f8035c4e-f53f-45b8-bde8-93fdef64f6dc}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{3d75a5ab-a2a7-4c56-a5ad-543640369b3c}" />
 </objects>

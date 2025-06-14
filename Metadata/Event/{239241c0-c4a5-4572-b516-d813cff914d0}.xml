@@ -5,7 +5,7 @@
 			<value>sfx_env_slab_idle_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{40954669-71ae-4b3b-81ae-9a0ef5188f7e}</destination>
@@ -177,6 +177,7 @@
 	<object class="MixerBusEffectChain" id="{cc880812-6cd9-4776-87b5-46aadd046892}">
 		<relationship name="effects">
 			<destination>{a62ae47e-3c8f-4902-bd65-908a100ff0ea}</destination>
+			<destination>{9bb33123-8dac-46ea-af17-d7ab0f335d65}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c1b3767e-064f-4610-a102-1d5cc79aef1a}" />
@@ -237,6 +238,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a62ae47e-3c8f-4902-bd65-908a100ff0ea}" />
+	<object class="ProxyEffect" id="{9bb33123-8dac-46ea-af17-d7ab0f335d65}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{da100590-dae6-4e3c-a61d-d3b3d3547843}">
 		<property name="position">
 			<value>0</value>

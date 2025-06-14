@@ -142,6 +142,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0c5573c3-6150-4c2e-a2e1-f06b3ab863f8}">
 		<relationship name="effects">
+			<destination>{731b9448-8e18-442d-9493-09665835ce64}</destination>
+			<destination>{6e40c7a8-a672-44b2-9a79-f5cbfaa4ac62}</destination>
 			<destination>{80ed1725-98df-4581-97bb-1437840b67e2}</destination>
 			<destination>{4d421e61-eedd-437c-8931-2cd9e6a1802b}</destination>
 		</relationship>
@@ -162,6 +164,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3717e6b2-a03d-419b-b742-0fc10269018f}" />
+	<object class="MultibandDynamicsEffect" id="{731b9448-8e18-442d-9493-09665835ce64}">
+		<property name="upperFrequency">
+			<value>907.401489</value>
+		</property>
+		<property name="modeC">
+			<value>1</value>
+		</property>
+		<property name="gainC">
+			<value>3.5</value>
+		</property>
+		<property name="ratioC">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{6e40c7a8-a672-44b2-9a79-f5cbfaa4ac62}">
+		<property name="boost">
+			<value>1.80000007</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{80ed1725-98df-4581-97bb-1437840b67e2}" />
 	<object class="ProxyEffect" id="{4d421e61-eedd-437c-8931-2cd9e6a1802b}">
 		<property name="inputFormat">

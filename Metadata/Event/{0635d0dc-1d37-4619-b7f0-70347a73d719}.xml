@@ -5,7 +5,7 @@
 			<value>sfx_env_pdiam_touch</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f62330f3-a4ca-466a-a5b0-f9960b815691}</destination>
@@ -119,6 +119,7 @@
 	<object class="MixerBusEffectChain" id="{b5f55702-7c4c-4122-8a96-9c0f4a3a6539}">
 		<relationship name="effects">
 			<destination>{35a1626c-3ebb-4f30-8b2c-6be4eeef839d}</destination>
+			<destination>{fa9d9865-16c0-4dc2-b00d-0efa11a31cce}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{03a0015b-68a8-4135-8663-6384955aa08d}" />
@@ -158,6 +159,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{10117c18-2e25-423e-b5f9-3a931ab1fdc7}" />
 	<object class="MixerBusFader" id="{35a1626c-3ebb-4f30-8b2c-6be4eeef839d}" />
+	<object class="ProxyEffect" id="{fa9d9865-16c0-4dc2-b00d-0efa11a31cce}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{82946ce5-0535-40a5-99cb-328b563b7fe6}">
 		<property name="position">
 			<value>0.75</value>

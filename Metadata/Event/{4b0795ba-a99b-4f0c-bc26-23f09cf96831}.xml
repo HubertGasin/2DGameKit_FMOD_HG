@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{3e7f6252-ec79-451f-b5b5-9c3491a0065f}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{f05f53bf-19fc-4d58-aa62-a0427e5b4c30}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{17107d22-ddb1-4158-83ed-4bde9015b160}">
 		<relationship name="effectChain">
@@ -90,7 +93,7 @@
 	<object class="MixerBusPanner" id="{eec13129-861a-4cff-88ec-8b32e915fa2d}" />
 	<object class="SingleSound" id="{3e7f6252-ec79-451f-b5b5-9c3491a0065f}">
 		<property name="length">
-			<value>2.6034999999999999</value>
+			<value>0.625</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{2bd23f05-d879-4ead-a140-13a178dcb9e2}</destination>
@@ -113,10 +116,24 @@
 			<destination>{17107d22-ddb1-4158-83ed-4bde9015b160}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{f05f53bf-19fc-4d58-aa62-a0427e5b4c30}">
+		<property name="position">
+			<value>0.20741194833153931</value>
+		</property>
+		<property name="length">
+			<value>0.27440069967707181</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{ff4ccd07-e674-48f3-bf18-f196ad73593b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b4348625-6db8-477b-ae05-607ca2dcefd8}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c03d3724-369d-45b6-9b4f-2d60eb4de139}">
 		<relationship name="effects">
 			<destination>{09281f95-88b0-46bc-b4fa-d3e963a8a330}</destination>
-			<destination>{83bae5ab-8ffc-43db-b601-8979f2727a68}</destination>
+			<destination>{d85cef25-96cd-4ad6-8c39-37313c32fb14}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cf913c43-6078-4e87-bc97-0bc69eada8fa}" />
@@ -136,17 +153,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{e5a94bc1-912a-4d3d-98fb-708414745d7d}" />
 	<object class="MixerBusFader" id="{09281f95-88b0-46bc-b4fa-d3e963a8a330}" />
-	<object class="ProxyEffect" id="{83bae5ab-8ffc-43db-b601-8979f2727a68}">
+	<object class="ProxyEffect" id="{d85cef25-96cd-4ad6-8c39-37313c32fb14}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+			<destination>{92296cbb-a8f2-4d00-a119-f0104ce117bf}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{5e1e3a8e-8c5a-4db4-b618-347eed1ff9d3}">
 		<property name="position">
-			<value>1.6875</value>
+			<value>0.45025484391819148</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -157,7 +174,7 @@
 	</object>
 	<object class="AutomationPoint" id="{5f08574f-2696-47e7-b657-1c546b27524d}">
 		<property name="position">
-			<value>2.6034999999999999</value>
+			<value>0.625</value>
 		</property>
 		<property name="value">
 			<value>0</value>

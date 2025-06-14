@@ -5,7 +5,7 @@
 			<value>sfx_enm_gunner_death</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{504402ea-6b9a-4e79-9d16-4222d38b50c6}</destination>
@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{248ad17d-465a-47dc-86bc-b32e81f60da5}" />
 	<object class="SingleSound" id="{be31958d-6982-489f-a62e-50e84f7c8aef}">
 		<property name="length">
-			<value>8.2223749999999995</value>
+			<value>7.7223749999999995</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{96e75292-5440-486b-8bd1-2e2a9e418322}</destination>
@@ -119,7 +122,6 @@
 	<object class="MixerBusEffectChain" id="{3f5e1cce-f27d-4d94-a6c9-818c3f5acc77}">
 		<relationship name="effects">
 			<destination>{f02a009c-3908-4eeb-b849-4235bf43c46e}</destination>
-			<destination>{1a99e0d3-b87b-4893-8eef-382e9f6b58fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0ccc2774-9461-4c76-a2a0-77c4a859162a}" />
@@ -147,14 +149,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{97c850d7-b8aa-45d9-9fda-396590b634ea}" />
 	<object class="MixerBusFader" id="{f02a009c-3908-4eeb-b849-4235bf43c46e}" />
-	<object class="ProxyEffect" id="{1a99e0d3-b87b-4893-8eef-382e9f6b58fe}">
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationPoint" id="{bc8f59f6-0007-4e6c-9133-5817d6112c09}">
 		<property name="position">
 			<value>0</value>
@@ -176,7 +170,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4389bd37-1fe6-49d1-8068-f539f42b4fc4}">
 		<property name="position">
-			<value>7</value>
+			<value>6.5</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -187,7 +181,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a1b8560c-f67a-46cd-8b00-3693a0ffad91}">
 		<property name="position">
-			<value>8.2223749999999995</value>
+			<value>7.7223749999999995</value>
 		</property>
 		<property name="value">
 			<value>0</value>

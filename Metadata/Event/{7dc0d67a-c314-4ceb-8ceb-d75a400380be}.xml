@@ -147,6 +147,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fc695361-bedc-4172-acdc-4b0350bcad6f}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -179,10 +182,10 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e94f5587-8106-4e7c-8197-14ab9db3ce2a}">
 		<relationship name="effects">
-			<destination>{1145518a-754f-46fc-bcea-49991714403e}</destination>
 			<destination>{bcd73ab3-cac0-44cc-9a87-069d6b5a6411}</destination>
 			<destination>{42e2352b-4683-4097-97e4-1281b16aa9c4}</destination>
 			<destination>{a252ae37-b410-49b2-9392-0da042a722a6}</destination>
+			<destination>{e465b302-a424-43f0-bf9e-a55b608c9116}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ce38ec1-15b6-4d93-b22f-111bffe08a1a}" />
@@ -242,14 +245,6 @@
 			<destination>{ddc4ea07-8238-4e7e-b90d-dafd31d50eee}</destination>
 		</relationship>
 	</object>
-	<object class="ProxyEffect" id="{1145518a-754f-46fc-bcea-49991714403e}">
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
-		</relationship>
-	</object>
 	<object class="MultibandEqEffect" id="{bcd73ab3-cac0-44cc-9a87-069d6b5a6411}">
 		<property name="filterTypeB">
 			<value>7</value>
@@ -264,7 +259,7 @@
 			<value>348.965088</value>
 		</property>
 		<property name="frequencyC">
-			<value>2888.00977</value>
+			<value>3552.8811</value>
 		</property>
 		<property name="qualityA">
 			<value>0.865297973</value>
@@ -273,7 +268,7 @@
 			<value>-16.8038998</value>
 		</property>
 		<property name="gainC">
-			<value>-17.3239441</value>
+			<value>-25.6446362</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{42e2352b-4683-4097-97e4-1281b16aa9c4}" />
@@ -287,6 +282,14 @@
 		<property name="dryLevel">
 			<value>-2</value>
 		</property>
+	</object>
+	<object class="ProxyEffect" id="{e465b302-a424-43f0-bf9e-a55b608c9116}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
+		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{a4859895-05ac-4d07-816f-be29233f707c}">
 		<property name="position">

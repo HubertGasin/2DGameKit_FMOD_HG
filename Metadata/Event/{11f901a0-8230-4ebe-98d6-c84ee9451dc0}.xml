@@ -5,7 +5,7 @@
 			<value>sfx_env_toxicWater_idle_lp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{22831d3c-930d-47eb-a3dd-4cbbe13918e8}</destination>
@@ -177,6 +177,7 @@
 	<object class="MixerBusEffectChain" id="{6c8ef696-7261-433d-9e5a-6c9b3106cb34}">
 		<relationship name="effects">
 			<destination>{6fb60afb-bd0a-4e6f-8831-37ca168df317}</destination>
+			<destination>{302d19fe-a060-4663-8e20-4be497ed1cae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ba69b3cc-035b-4888-aa20-76559748509e}" />
@@ -238,6 +239,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6fb60afb-bd0a-4e6f-8831-37ca168df317}" />
+	<object class="ProxyEffect" id="{302d19fe-a060-4663-8e20-4be497ed1cae}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{df877c41-57c3-451b-9ab6-93ecd21c2ec5}">
 		<property name="position">
 			<value>0</value>
@@ -325,7 +334,7 @@
 			<value>9215.05566</value>
 		</property>
 		<property name="frequencyC">
-			<value>4023.18384</value>
+			<value>4193.3999</value>
 		</property>
 		<property name="frequencyD">
 			<value>109.366081</value>
@@ -334,7 +343,7 @@
 			<value>0.634002149</value>
 		</property>
 		<property name="gainC">
-			<value>-9.52329445</value>
+			<value>3.99783254</value>
 		</property>
 		<property name="gainD">
 			<value>20.6392193</value>

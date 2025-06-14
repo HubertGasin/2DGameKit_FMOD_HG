@@ -5,7 +5,7 @@
 			<value>sfx_plr_weaponPickup</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{66573299-8210-4ffe-9d43-4a3b780b1b98}</destination>
@@ -69,11 +69,18 @@
 	</object>
 	<object class="MarkerTrack" id="{d79d7200-70f9-49f1-aeb8-4bed530c626d}" />
 	<object class="GroupTrack" id="{2910da21-7296-4990-8bf2-5a28d2bbe48e}">
+		<relationship name="modules">
+			<destination>{bb51f83f-bc52-4537-a7bb-959bd5ff4825}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{731e494a-ed89-49f5-95f7-6ca63be76a83}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{223b8b0b-c6ec-4230-967b-7486367c2233}" />
+	<object class="Timeline" id="{223b8b0b-c6ec-4230-967b-7486367c2233}">
+		<relationship name="modules">
+			<destination>{bb51f83f-bc52-4537-a7bb-959bd5ff4825}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{41b395fd-adc4-4b09-b22d-5ca1e8009536}">
 		<relationship name="effectChain">
 			<destination>{ffd309bd-e816-43ee-b589-1bb82852ccd9}</destination>
@@ -91,6 +98,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8696459d-3428-4cdf-a55f-edc8bcae7de0}" />
+	<object class="SingleSound" id="{bb51f83f-bc52-4537-a7bb-959bd5ff4825}">
+		<property name="length">
+			<value>2.6195208333333335</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{298b64fd-416e-4c1d-9def-3205fbb1f4b2}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{731e494a-ed89-49f5-95f7-6ca63be76a83}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -115,9 +130,21 @@
 	<object class="MixerBusEffectChain" id="{4d74a450-1e26-4567-9159-293dcae07352}">
 		<relationship name="effects">
 			<destination>{a348d302-f50a-423c-bd62-24d41ac0f269}</destination>
+			<destination>{e65a87f8-5de9-4d6c-b750-fc34c86cce0e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d7fefb16-5559-4ad2-ab9f-a3a0a6b2517d}" />
 	<object class="MixerBusFader" id="{772495c5-f9ff-4d89-91ad-42ef3d057c8f}" />
 	<object class="MixerBusFader" id="{a348d302-f50a-423c-bd62-24d41ac0f269}" />
+	<object class="MixerSend" id="{e65a87f8-5de9-4d6c-b750-fc34c86cce0e}">
+		<property name="level">
+			<value>-44</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{e73c50fa-23be-499b-ad0b-6a1ecec5b218}</destination>
+		</relationship>
+	</object>
 </objects>

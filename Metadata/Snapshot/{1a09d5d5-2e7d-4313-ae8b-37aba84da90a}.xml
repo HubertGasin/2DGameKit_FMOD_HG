@@ -64,7 +64,7 @@
 			<value>earlyDelay</value>
 		</property>
 		<property name="value">
-			<value>12</value>
+			<value>160</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -86,7 +86,7 @@
 			<value>HFReference</value>
 		</property>
 		<property name="value">
-			<value>5000</value>
+			<value>8500</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -97,7 +97,7 @@
 			<value>HFDecayRatio</value>
 		</property>
 		<property name="value">
-			<value>64</value>
+			<value>52</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -119,7 +119,7 @@
 			<value>density</value>
 		</property>
 		<property name="value">
-			<value>100</value>
+			<value>60.5</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -141,7 +141,7 @@
 			<value>lowShelfGain</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-5</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -152,7 +152,7 @@
 			<value>highCut</value>
 		</property>
 		<property name="value">
-			<value>7800</value>
+			<value>4200</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -174,7 +174,7 @@
 			<value>wetLevel</value>
 		</property>
 		<property name="value">
-			<value>-8.5</value>
+			<value>-22</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>

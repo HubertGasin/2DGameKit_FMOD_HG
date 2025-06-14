@@ -76,6 +76,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9e1545d9-2276-498b-85b3-5ae248ad1bcb}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{4cd2f541-6874-428a-bc49-36cc2811947d}</destination>
 		</relationship>
@@ -107,6 +110,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{13fc9cf7-b57a-4c0c-bbab-3c7e8dde3d09}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -145,7 +151,7 @@
 			<destination>{731b9448-8e18-442d-9493-09665835ce64}</destination>
 			<destination>{6e40c7a8-a672-44b2-9a79-f5cbfaa4ac62}</destination>
 			<destination>{80ed1725-98df-4581-97bb-1437840b67e2}</destination>
-			<destination>{4d421e61-eedd-437c-8931-2cd9e6a1802b}</destination>
+			<destination>{2ad21c66-eb2d-4736-a2ad-0cdcb8fd311b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c531cef7-d1d6-42b9-931e-a0710ff1c571}" />
@@ -178,18 +184,14 @@
 			<value>6</value>
 		</property>
 	</object>
-	<object class="LimiterEffect" id="{6e40c7a8-a672-44b2-9a79-f5cbfaa4ac62}">
-		<property name="boost">
-			<value>1.80000007</value>
-		</property>
-	</object>
+	<object class="LimiterEffect" id="{6e40c7a8-a672-44b2-9a79-f5cbfaa4ac62}" />
 	<object class="MixerBusFader" id="{80ed1725-98df-4581-97bb-1437840b67e2}" />
-	<object class="ProxyEffect" id="{4d421e61-eedd-437c-8931-2cd9e6a1802b}">
+	<object class="ProxyEffect" id="{2ad21c66-eb2d-4736-a2ad-0cdcb8fd311b}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="preset">
-			<destination>{e30c91cd-068c-4d98-8bdb-02fd37ce280f}</destination>
+			<destination>{5ae6b47e-9d3a-4b76-94fe-5058a5acd3d3}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{7a56c813-669a-4468-8f18-a1d22981bf10}">

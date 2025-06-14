@@ -14,14 +14,26 @@
 	<object class="EffectChain" id="{01def2a9-face-49e7-835c-0298221b08b0}">
 		<relationship name="effects">
 			<destination>{eef5c7db-5a89-40e5-b41f-d8e4c31bf7d3}</destination>
+			<destination>{2ed9e47c-59b6-4a4d-9aff-02a5bde87ede}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{eef5c7db-5a89-40e5-b41f-d8e4c31bf7d3}">
 		<property name="maximumDistance">
-			<value>25</value>
+			<value>28.5</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+	</object>
+	<object class="MixerSend" id="{2ed9e47c-59b6-4a4d-9aff-02a5bde87ede}">
+		<property name="level">
+			<value>-16.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{e73c50fa-23be-499b-ad0b-6a1ecec5b218}</destination>
+		</relationship>
 	</object>
 </objects>

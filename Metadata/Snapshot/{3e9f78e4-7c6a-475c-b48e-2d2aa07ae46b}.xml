@@ -35,6 +35,8 @@
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{b0613273-1c19-4024-b285-82ddbb3751e9}</destination>
+			<destination>{4da250bc-961a-4d35-bda5-709624eec416}</destination>
+			<destination>{ce2bbd66-3b0a-4f00-936a-3e6f69b5667e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{62bc9063-743b-4936-9a4e-e184ed32d388}">
@@ -53,7 +55,7 @@
 			<value>decayTime</value>
 		</property>
 		<property name="value">
-			<value>7200</value>
+			<value>2900</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -64,7 +66,7 @@
 			<value>earlyDelay</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>15</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -75,7 +77,7 @@
 			<value>lateDelay</value>
 		</property>
 		<property name="value">
-			<value>30</value>
+			<value>22</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -97,7 +99,7 @@
 			<value>HFDecayRatio</value>
 		</property>
 		<property name="value">
-			<value>33</value>
+			<value>100</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -152,7 +154,7 @@
 			<value>highCut</value>
 		</property>
 		<property name="value">
-			<value>4500</value>
+			<value>4200</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -163,7 +165,7 @@
 			<value>earlyLateMix</value>
 		</property>
 		<property name="value">
-			<value>80</value>
+			<value>59</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -174,7 +176,7 @@
 			<value>wetLevel</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>0</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{2e0d8d1d-9d6e-4b74-939d-6c6f0ee87c8e}</destination>
@@ -183,6 +185,16 @@
 	<object class="SnapshotTrack" id="{b0613273-1c19-4024-b285-82ddbb3751e9}">
 		<relationship name="mixerStrip">
 			<destination>{e73c50fa-23be-499b-ad0b-6a1ecec5b218}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{4da250bc-961a-4d35-bda5-709624eec416}">
+		<relationship name="mixerStrip">
+			<destination>{b491bd95-e58b-4ec8-8418-46f3394582cf}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{ce2bbd66-3b0a-4f00-936a-3e6f69b5667e}">
+		<relationship name="mixerStrip">
+			<destination>{98132424-ea6f-4c63-9da0-963319cfcb74}</destination>
 		</relationship>
 	</object>
 </objects>

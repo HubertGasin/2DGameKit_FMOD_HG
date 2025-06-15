@@ -120,6 +120,7 @@
 		<relationship name="effects">
 			<destination>{c2d1acec-95d0-4240-b223-1a26727ef712}</destination>
 			<destination>{bf0bd757-3c7a-4317-b5e8-54425523af47}</destination>
+			<destination>{0f998fbc-bcef-4b16-8a80-72d031f2cdd4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d3a1005d-2039-44cd-81ba-62a0eb7645d7}" />
@@ -158,6 +159,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{bf0bd757-3c7a-4317-b5e8-54425523af47}" />
+	<object class="LimiterEffect" id="{0f998fbc-bcef-4b16-8a80-72d031f2cdd4}">
+		<property name="boost">
+			<value>1.89999998</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{5079cada-a934-4741-8dd2-8576a37e6f9e}">
 		<property name="position">
 			<value>0</value>

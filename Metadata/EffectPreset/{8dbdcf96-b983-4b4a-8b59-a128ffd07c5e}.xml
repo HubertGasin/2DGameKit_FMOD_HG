@@ -19,7 +19,7 @@
 	</object>
 	<object class="SpatialiserEffect" id="{80a14deb-49a9-431c-ad22-71d0d4d92e2c}">
 		<property name="maximumDistance">
-			<value>15</value>
+			<value>18</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
@@ -27,7 +27,7 @@
 	</object>
 	<object class="MixerSend" id="{b1d78d06-e0be-45ae-a5ea-a926cfd1e2af}">
 		<property name="level">
-			<value>-17.5</value>
+			<value>-14.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>
